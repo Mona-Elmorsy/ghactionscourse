@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkoutq@v4.2.2
+        uses: actions/checkout@v4.2.2
 
       - name: Run tests
         run: npm test
