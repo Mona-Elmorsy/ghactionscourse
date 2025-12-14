@@ -3,8 +3,8 @@ return 'Hello, ${name}! (After edit error)';
 }
 
 
-module.exports = greet;
+//module.exports = greet;
 
-if (require.main === module) {
-    console.log(greet("world"));
-}
+//if (require.main === module) {
+ //   console.log(greet("world"));
+//}
