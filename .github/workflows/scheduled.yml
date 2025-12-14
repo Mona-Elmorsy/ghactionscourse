@@ -1,6 +1,6 @@
 on:
  schedule:
-   - cron: "53 21 * * *"
+   - cron: "57 21 * * *"
 jobs:
   testScheduledWebhook:
     runs-on: ubuntu-latest
