@@ -1,0 +1,9 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubutu-latest
+    steps:
+      - name: Deploy application
+        run: echo "Deploying the application..."
