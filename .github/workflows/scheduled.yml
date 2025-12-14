@@ -1,0 +1,9 @@
+on:
+ schedule:
+   - cron: "16 21 * * *"
+jobs:
+  testScheduledWebhook:
+    runs-on: ubunto-latest
+    steps:
+      - name: testing
+        run: echo "Running the test scheduled webhook"
