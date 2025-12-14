@@ -1,6 +1,6 @@
 on:
  schedule:
-   - cron: "16 21 * * *"
+   - cron: "32 23 * * *"
 jobs:
   testScheduledWebhook:
     runs-on: ubunto-latest
