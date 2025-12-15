@@ -4,11 +4,11 @@ on:
 
 jobs:
   example:
-   runs-on: ubuntu-latest
-   steps:
-     - name: set api key
-       run: echo "API_KEY=1234" >> GITHUB_ENV
+    runs-on: ubuntu-latest
+    steps:
+      - name: set api key
+        run: echo "API_KEY=1234" >> GITHUB_ENV
 
-     - name: use api key
-       run: echo "using api key $API_KEY"
+      - name: use api key
+        run: echo "using api key $API_KEY"
        
